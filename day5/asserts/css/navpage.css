@@ -1,0 +1,36 @@
+nav {
+    background-color: #101010;
+  }
+  nav ul {
+    list-style-type: none; 
+    font-size: 19px; 
+    margin: 0;
+    padding: 0px;
+    
+    top: 50px;
+    left: 580px;
+    overflow: hidden;
+  
+  }
+  
+  nav li {
+    float: left; 
+  }
+  
+  nav li a {
+    display: block;
+    color: rgb(231, 226, 226);
+    text-align: center;
+    padding: 40px 50px;
+    text-decoration: none;
+    font-style: italic;
+  
+  }
+  
+  nav li a:hover {
+    border-radius: 0px;
+    max-width:fit-content;
+    background-color: #a87acf;
+
+    
+  }
