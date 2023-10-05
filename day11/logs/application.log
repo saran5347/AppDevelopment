@@ -1,0 +1,38 @@
+2023-10-05T09:26:36.103+05:30  INFO 78252 --- [restartedMain] com.teamace.saransk.SaranskApplication   : Starting SaranskApplication using Java 17.0.6 with PID 78252 (C:\Users\SARAN\Documents\saransk\saransk\target\classes started by SARAN in C:\Users\SARAN\Documents\saransk\saransk)
+2023-10-05T09:26:36.114+05:30  INFO 78252 --- [restartedMain] com.teamace.saransk.SaranskApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-10-05T09:26:36.191+05:30  INFO 78252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-05T09:26:36.192+05:30  INFO 78252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-05T09:26:37.658+05:30  INFO 78252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-05T09:26:37.741+05:30  INFO 78252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+2023-10-05T09:26:38.671+05:30  INFO 78252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2023-10-05T09:26:38.690+05:30  INFO 78252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-05T09:26:38.693+05:30  INFO 78252 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-05T09:26:38.857+05:30  INFO 78252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-05T09:26:38.858+05:30  INFO 78252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2664 ms
+2023-10-05T09:26:39.257+05:30  INFO 78252 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-05T09:26:39.354+05:30  INFO 78252 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-05T09:26:39.364+05:30  INFO 78252 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-05T09:26:39.566+05:30  INFO 78252 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-05T09:26:39.743+05:30  INFO 78252 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-05T09:26:39.767+05:30  INFO 78252 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-05T09:26:40.168+05:30  INFO 78252 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c0f1af0
+2023-10-05T09:26:40.171+05:30  INFO 78252 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-05T09:26:40.238+05:30  WARN 78252 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-05T09:26:40.484+05:30  INFO 78252 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-05T09:26:41.221+05:30  INFO 78252 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-05T09:26:41.313+05:30  INFO 78252 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-05T09:26:41.978+05:30  WARN 78252 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-05T09:26:42.473+05:30  INFO 78252 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-10-05T09:26:42.543+05:30 DEBUG 78252 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression [permitAll] for Mvc [pattern='/api/v1/auth/**']
+2023-10-05T09:26:42.544+05:30 DEBUG 78252 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression [authenticated] for any request
+2023-10-05T09:26:42.554+05:30  INFO 78252 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@40896a82, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52e7bc8c, org.springframework.security.web.context.SecurityContextHolderFilter@7dc8371d, org.springframework.security.web.header.HeaderWriterFilter@6484d5b9, org.springframework.security.web.authentication.logout.LogoutFilter@57a8cce7, com.teamace.saransk.config.JwtAuthenticationFilter@35952ee1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c963d45, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21572086, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6dc004fb, org.springframework.security.web.session.SessionManagementFilter@77e6ffee, org.springframework.security.web.access.ExceptionTranslationFilter@780a87b8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@63d84e3b]
+2023-10-05T09:26:43.039+05:30  INFO 78252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-05T09:26:43.152+05:30  INFO 78252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2023-10-05T09:26:43.178+05:30  INFO 78252 --- [restartedMain] com.teamace.saransk.SaranskApplication   : Started SaranskApplication in 7.626 seconds (process running for 8.675)
+2023-10-05T09:26:44.318+05:30  INFO 78252 --- [RMI TCP Connection(5)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-05T09:26:44.318+05:30  INFO 78252 --- [RMI TCP Connection(5)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-05T09:26:44.322+05:30  INFO 78252 --- [RMI TCP Connection(5)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-05T09:28:04.729+05:30 DEBUG 78252 --- [http-nio-8181-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/demo-controller
+2023-10-05T09:28:04.745+05:30 DEBUG 78252 --- [http-nio-8181-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-05T09:28:04.757+05:30 DEBUG 78252 --- [http-nio-8181-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/demo-controller] with attributes [permitAll]
+2023-10-05T09:28:04.759+05:30 DEBUG 78252 --- [http-nio-8181-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/demo-controller
