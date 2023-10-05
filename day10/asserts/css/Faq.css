@@ -1,0 +1,61 @@
+
+.faq-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    position: relative;
+    left: 30px;
+    margin: 0 400px; /* Center horizontally */
+    max-width: 600px; /* Limit the width for a clean and neat appearance */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Style the FAQ header */
+  .faq-header {
+    color: #080808;
+    text-align: center;
+    font-size: 24px; /* Increase the font size for the header */
+    margin-bottom: 25px; /* Add space below the header */
+  }
+  
+  /* Style each FAQ item */
+  .faq-item {
+    margin: 20px 0; /* Increase vertical margin for separation */
+  }
+  
+  /* Style the question container */
+  .question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 15px;
+    background-color: #007bffc6;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+  }
+  
+  /* Style the question text */
+  .question-text {
+      font-size: 21px;
+      margin: 0;
+    }
+    
+    /* Style the question when it's open */
+    .question-open {
+        background-color: rgb(9, 13, 255);
+    }
+    
+    /* Style the answer container */
+    .answer {
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  

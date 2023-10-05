@@ -1,0 +1,66 @@
+.footer {
+  background-color: #007bff;
+  color: white;
+  color: rgb(127, 217, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0%;
+  padding: 0%;
+}
+
+ 
+.footer .quick-links a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(18, 18, 18);
+  position: relative;
+  left: 1030px;
+}
+
+.footer .skkk a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(4, 4, 4);
+  position: relative;
+  left: 575px;
+  top: 25px;
+}
+
+.footer .quick a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(4, 4, 4);
+  position: relative;
+  left: 770px;
+  top: 1px;
+}
+
+.footer .links a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(8, 7, 7);
+  position: relative;
+  left: 860px;
+  top: -24px;
+}
+
+.footer .quick-links a:hover{
+  text-decoration: underline;
+}
+
+.footer .skkk a:hover {
+  text-decoration: underline;
+}
+
+.footer .copyright {
+  color: rgb(247, 241, 241) ;
+  text-decoration: none;
+  margin-right: 20px;
+  position: relative;
+  right: 1200px; 
+}

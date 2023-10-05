@@ -1,0 +1,103 @@
+/* Import the same CSS styles as your PrivacyPolicy.css */
+
+.about-us-container {
+  background-color: #f7f7f7;
+  width: 100%;
+  padding-bottom: 10%; /* Adjust the percentage as needed */
+  max-width: 800px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 80px 100px 100px rgba(21, 21, 21, 0.2);
+  transition: transform 0.2s;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+.about-us-container:hover {
+  transform: scale(1.02);
+}
+
+/* Center the content vertically and horizontally */
+.about-us-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.about-us {
+  max-width: 800px;
+  /* Adjust the padding for top, right, bottom, and left as needed */
+  padding: 20px 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+.about-us:hover {
+  background-color: #f0f0f0;
+}
+
+.about-us h2,
+.about-us h3 {
+  padding-bottom: 20px;
+  font-size: 28px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about-us strong{
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+/* Align paragraphs in a straight line */
+.about-us p {
+  text-align: justify;
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Import the same CSS styles as your PrivacyPolicy.css */
+
+.terms-and-conditions {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%; /* Set the width of the content */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.terms-and-conditions:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.terms-and-conditions h2,
+.terms-and-conditions h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #080808;
+}
+
+/* Align paragraphs in a straight line */
+.terms-and-conditions p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #555;
+  text-align: justify; /* Align text in a straight line */
+}
+
+.terms-and-conditions strong {
+  font-weight: bold;
+  color: #000;
+}
+
+/* Apply hover effect to specific sections within the terms and conditions */
+.terms-and-conditions .hoverable-section:hover {
+  background-color: #f5f5f5;
+  box-shadow: none;
+}
