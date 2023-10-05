@@ -1,0 +1,38 @@
+/* Contact.css */
+.contact-page {
+    text-align: center; /* Center-align the content */
+    margin: 20px; /* Add some margin for spacing */
+  }
+  
+  .contact-info {
+    margin-top: 20px; /* Add space between the title and contact info */
+  }
+  
+  .social-media-links {
+    margin-top: 20px; /* Add space between contact info and social media links */
+  }
+  
+  .social-media-links h2 {
+    font-size: 1.2em; /* Increase the font size for the social media links title */
+  }
+  
+  .social-media-links ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .social-media-links li {
+    margin-top: 10px; /* Add space between each social media link */
+  }
+  
+  /* Style the links */
+  .social-media-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #0078d4; /* Set link color to blue (you can change the color as needed) */
+    font-weight: bold; /* Make the links bold */
+  }
+  
+  .social-media-links a:hover {
+    color: #004e8c; /* Change link color on hover (you can change the color as needed) */
+  }
+  
